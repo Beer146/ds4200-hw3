@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Lab Project | DevOps Experiments</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="projects.html">Projects</a>
+  </nav>
+
+  <h2>My Home Lab Project</h2>
+
+  <img src="homelabb.jpg" alt="My home lab setup" class="main-img">
+
+  <p>
+    My home lab is my personal sandbox for experimenting with DevOps workflows and cloud technologies. 
+    I started it as a way to apply what I was learning at Babbage Insight and IntelNeuron LLC to a more controlled, hands-on environment. 
+    Using an AWS EC2 instance and Docker, I created a simulated infrastructure where I can deploy and test services continuously.
+    <br><br>
+    I configured <strong>OpenTofu (Terraform fork)</strong> scripts to provision EC2 instances and networking resources automatically. 
+    Once my infrastructure was up, I containerized several lightweight applications and orchestrated them with <strong>Docker Compose</strong>. 
+    To automate builds and deployments, I set up a <strong>GitHub Actions</strong> pipeline that SSHs into my EC2 instance, pulls the latest code, and rebuilds Docker containers on every push.
+    <br><br>
+    This project also includes AWS monitoring through <strong>CloudWatch</strong> and cost tracking, helping me understand the practical challenges of running services efficiently. 
+    Ultimately, the home lab gives me the flexibility to test new tools, break things safely, and deepen my understanding of scalable infrastructure automation.
+  </p>
+
+  <h3>Tools and Technologies Used</h3>
+  <ul>
+    <li>AWS EC2 (Ubuntu Server)</li>
+    <li>Docker & Docker Compose</li>
+    <li>OpenTofu (Terraform-compatible IaC)</li>
+    <li>GitHub Actions for CI/CD</li>
+    <li>CloudWatch & AWS Billing Dashboard</li>
+  </ul>
+
+</body>
+</html>
