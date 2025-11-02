@@ -1,0 +1,6 @@
+Website Link: https://beer146.github.io/my-website/projects.html
+
+Styling & Customizations:
+1. Used Google Font "Poppins" for modern typography.
+2. Applied a blue color scheme (#004aad) for headings and navigation bar.
+3. Added rounded borders, box shadows, and centered layout for images.
